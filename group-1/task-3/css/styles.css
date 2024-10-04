@@ -1,0 +1,42 @@
+/* Основные стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+/* Стили для заголовка */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Стили для выпадающих списков */
+select {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+/* Стили для кнопки */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Стили для результата */
+p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}

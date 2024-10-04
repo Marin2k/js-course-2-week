@@ -1,0 +1,36 @@
+/* Общий стиль для body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; /* Центрируем текст */
+    margin-top: 50px;
+}
+
+/* Стили для заголовка */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Стили для поля ввода */
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+/* Стили для кнопки */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+}
+
+/* Стили для результата */
+#result {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}

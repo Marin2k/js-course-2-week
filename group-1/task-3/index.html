@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хочу ли я играть в бадминтон?</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Подключаем файл стилей -->
+</head>
+<body>
+
+    <h1>Решим, хотите ли вы играть в бадминтон</h1>
+
+    <!-- Выпадающий список для выбора температуры -->
+    <label for="temperature">Температура:</label>
+    <select id="temperature">
+        <option value="жарко">Жарко</option>
+        <option value="тепло">Тепло</option>
+        <option value="холодно">Холодно</option>
+    </select>
+
+    <!-- Выпадающий список для выбора осадков -->
+    <label for="precipitation">Осадки:</label>
+    <select id="precipitation">
+        <option value="ясно">Ясно</option>
+        <option value="облачно">Облачно</option>
+        <option value="дождь">Дождь</option>
+        <option value="снег">Снег</option>
+        <option value="град">Град</option>
+    </select>
+
+    <!-- Выпадающий список для выбора ветра -->
+    <label for="wind">Ветер:</label>
+    <select id="wind">
+        <option value="нет">Нет</option>
+        <option value="есть">Есть</option>
+    </select>
+
+    <!-- Выпадающий список для выбора влажности -->
+    <label for="humidity">Влажность:</label>
+    <select id="humidity">
+        <option value="низкая">Низкая</option>
+        <option value="высокая">Высокая</option>
+    </select>
+
+    <!-- Кнопка для принятия решения -->
+    <button id="decideButton">Решить</button>
+
+    <!-- Тег для вывода результата -->
+    <p id="result"></p>
+
+    <script src="js/script.js"></script> <!-- Подключаем JavaScript файл -->
+</body>
+</html>
